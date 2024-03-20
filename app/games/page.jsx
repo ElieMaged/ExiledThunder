@@ -1,7 +1,11 @@
-import React from "react"
+
+import React, { Suspense } from "react"
 import Image from "next/image";
-import Card from '../../Components/card'
-import dataBase from '../../Components/data'
+import Card from '../../components/card'
+import dataBase from '../../components/data'
+import Loading from '../Loading'
+
+
 
 
 
@@ -11,9 +15,11 @@ export default function games() {
 
     return(
           <>
+         
+           <Suspense fallback={<Loading />}>
         <br />
         <br />
-        <br />n
+        <br />
                       <div className='flex flex-row'>
                                   <a href={dataBase[0].url}><Card 
                 title={dataBase[0].name}
@@ -39,7 +45,9 @@ export default function games() {
                 image={dataBase[3].image}
                  />
                  </div>
-                  
+               
+                
+                 </Suspense>   
         </>
     )
 }
