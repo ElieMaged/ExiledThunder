@@ -21,16 +21,16 @@ export default function about() {
     <br></br>
     <br></br>
 
-    <p className='text-2xl'>
+    <div className='text-2xl'>
     &ldquo;Mobile games are not just about tapping screens; they &apos; re portals to infinite worlds, miniature universes waiting to be explored and experienced.&ldquo;
     <br></br>
-    <p className='text-3xl'>
+    <div className='text-3xl'>
      - Mark Nasr
-     </p>
-     <p>
+     </div>
+     <div>
         Lead Dev at Exiled Thunder
-     </p>
-</p>
+     </div>
+</div>
     </div>
         </>
     )

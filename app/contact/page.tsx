@@ -16,13 +16,13 @@ export default function contact() {
     <br></br>
     <br></br>
     <div className='container px-40'>
-      <p className='text-xl'>
+      <div className='text-xl'>
    We would be more than happy to answer any questions, requests, or business propositions sent to our official email at: 
-   </p>
+   </div>
    <br></br>
-   <p className='text-3xl'>
+   <div className='text-3xl'>
    exiledthunderproductions@gmail.com
-   </p>
+   </div>
    </div>
     </>
   )
