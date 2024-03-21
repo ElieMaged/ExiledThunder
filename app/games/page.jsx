@@ -1,14 +1,8 @@
 
-import Image from "next/image";
 import Card from '../../components/card'
 import dataBase from '../../components/data'
 import Loading from '../Loading'
 import Link from 'next/link';
-
-
-
-
-
 
 export default function games() {
     return(
