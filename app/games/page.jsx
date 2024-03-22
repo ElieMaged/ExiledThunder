@@ -15,7 +15,7 @@ export default function games() {
 const [load, setLoad] = React.useState(false)
 React.useEffect(() => {
   setLoad(true)
-})
+},[])
 if(!load) {
   return null;
 }
