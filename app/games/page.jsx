@@ -1,5 +1,5 @@
-
-import React from "react"
+'use client'
+import React, {useEffect, useState} from "react"
 import Image from "next/image";
 import Card from '../../components/card'
 import dataBase from '../../components/data'
@@ -12,7 +12,14 @@ import Link from 'next/link';
 
 
 export default function games() {
-
+const [load, setLoad] = React.useState(false)
+React.useEffect(() => {
+  setLoad(true)
+})
+if(!load) {
+  return null;
+}
+else{
     return(
           <>
          
@@ -50,4 +57,4 @@ export default function games() {
                  
         </>
     )
-}
+}}
