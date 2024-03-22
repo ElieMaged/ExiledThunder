@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 
 
-export default function games() {
+export default function Games() {
 const [load, setLoad] = React.useState(false)
 React.useEffect(() => {
   setLoad(true)
