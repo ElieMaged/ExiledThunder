@@ -13,9 +13,9 @@ setLoaded(true)
   }
   return (
 
-    <div className="flex cardGroup">
+    <div className="flex cardGroup ">
       { 
-     <span className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-initial w-72 h-150 m-6 flex flex-col justify-between text-center	">
+     <span className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex-initial w-72 h-150 m-6 flex flex-col justify-between text-center carded">
     <Link href="props.url">
     
         <h5 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h5>
