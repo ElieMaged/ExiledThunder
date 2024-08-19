@@ -2,6 +2,7 @@
 import Thunder from '../app/images/thunder_5.png'
 import Image from "next/image";
 import Link from 'next/link';
+import './card.css'
 
 export default function Navbar() {
 
