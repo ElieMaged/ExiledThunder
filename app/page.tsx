@@ -12,7 +12,7 @@ export default function Home() {
           Where Indie Dreams Take Flight!
       </h1>
       <p>
-        We create games that spark the imagination and reignite the fire in your heart!
+        We create games that spark the imagination and reignite the fire in the heart!
       </p>
            </div>
       <div className="mb-32 grid text-center lg:max-w-7xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left ">   
